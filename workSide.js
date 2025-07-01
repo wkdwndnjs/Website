@@ -302,7 +302,7 @@ project.images.forEach(url => {
 });
 
 } else {
-  document.body.innerHTML = "<h1 class='WorkSide-error'>Project not found.</h1>";
+  document.body.innerHTML = "<h1 class='workside-error'>Project not found.</h1>";
 }
 
 

@@ -51,7 +51,7 @@ function renderGallery(year) {
     box.classList.add("work-box");
 
   box.innerHTML = `
-  <a href="WorkSide.html?id=${item.id}">
+  <a href="workside.html?id=${item.id}">
     <span class="genre-tag">${item.genre}</span>
     <img src="${item.img}" alt="${item.genre}" class="thumbnail">
   </a>`;
